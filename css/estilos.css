@@ -1,0 +1,47 @@
+*, *::after, *::before{
+    padding: 0;
+    margin: 0;
+    font-family: arial;
+}
+body{
+    background-image: url(../img/61518420-las-l%C3%ADneas-negras-sin-patr%C3%B3n-de-material-escolar-texturas-fondos-y-plantillas-para-los-materiales-de-prom.jpg);
+}
+.form{
+    background-color: dodgerblue;
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    margin: -200px 0px 0px -200px;
+    border-radius: 30px;
+}
+.form h1{
+    background-color:darkorange;
+    padding: 20px;
+    color: white;
+    border-radius: 30px 30px 0 0px;
+    display: block;
+    margin: 0px 0px 40px 0px;
+}
+.inp{
+    display: block;
+    margin: 20px 10px 20px 10px;
+    padding: 10px;
+    width: 90%;
+    font-size: 1em;
+    border-radius:5px;
+    border: none;
+    text-align: center;
+}
+.btn{
+    background-color:darkorange;
+    padding: 15px;
+    color: white;
+    border-radius: 10px;
+    width: 90%;
+    border: none;
+    font-size: 1.3em;
+    margin: 20px 10px 20px 10px;
+}
